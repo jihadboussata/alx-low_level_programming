@@ -9,6 +9,8 @@
 /*
  * main - main function
  *
+ * Description: Checks the sign of a random number
+ *
  * Return: Always 0
  */
 

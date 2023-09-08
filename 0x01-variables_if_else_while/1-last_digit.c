@@ -9,20 +9,25 @@
 /*
  * main - main function
  *
+ * Description: Prints the last digit of a random number
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
-	int n, m;
+	int n;
+
+	int m;
 
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
-	/* Checking the sign of n */
+	/* Checking last digit cases */
 
 	m = n % 10;
+
 	if (m > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, m);
 	else if (m == 0)

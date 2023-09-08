@@ -1,15 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-
-/* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-
-/*
- * main - main function
+/**
+ * main - Prints the last digit of a random number
  *
- * Description: Prints the last digit of a random number
+ * Description: Prints and checks on the last digit of a random number.
  *
  * Return: Always 0
  */

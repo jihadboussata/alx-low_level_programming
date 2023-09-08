@@ -6,10 +6,8 @@
 
 /* betty style doc for function main goes there */
 
-/*
- * main - main function
- *
- * Description: Checks the sign of a random number
+/**
+ * main - Checks the sign of a random number
  *
  * Return: Always 0
  */
